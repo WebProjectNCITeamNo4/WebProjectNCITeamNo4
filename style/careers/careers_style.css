@@ -1,0 +1,50 @@
+body{
+    background-color: rgba(62, 132, 170, 0.3);
+    padding-top: 90px;
+    padding-left: 100px;
+    padding-right: 100px;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.listBenefits{
+    list-style-type: circle;
+    font-size: 27px;
+    line-height: 60px;
+    margin-left: 90px;
+}
+
+@media (max-width: 1200px){
+    body{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .listBenefits{
+        margin-left: 0px;
+    }
+}
+
+
+.btn-secondary:hover{
+    background-color: black;
+}
+
+.jobTitle{
+    font-size: 23px;
+}
+
+.myFooter{
+    text-align: center;
+    color: rgb(65, 65, 65);
+    padding-bottom: 50px;
+}
+
+.myImages{
+    display: block;
+}
+
+@media (max-width: 720px){
+    .myImages{
+        max-width:400px ;
+    }
+}
