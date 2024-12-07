@@ -1,0 +1,154 @@
+*{ padding: 0;
+    box-sizing:border-box;
+    margin:0;
+    background-color: rgb(225, 194, 166);
+}
+
+.navbar{
+    background-color: rgb(225, 194, 166);
+}
+.container {
+    
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items:first baseline;
+    justify-self:space-evenly;
+}
+h1{ color: white;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size:xx-large;
+     text-align:left;
+    padding: 10%;
+}
+.contactleft{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    
+}
+.contactitle h2{
+    font-weight: 600;
+    color:black;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contacttitle hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    border-color:#a363aa;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+input{
+    background-color: white;
+    width:400px;
+    height:50px;
+    border:none;
+    outline: none;
+    font-size: large;
+    padding-left: 25px;
+    font-weight: 500;
+    color:black;
+    border-radius:20px;
+
+   
+}
+textarea{
+    background-color:white;
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 2ch;
+    border-color: black;
+    margin: bottom 25px;
+    font-size: large;
+}
+
+
+button{
+display:flex;
+align-items: center;
+padding: 15px 30px;
+background-color:white ;
+border-radius: 50px;
+border-color: black;
+font-size: 16px;
+gap:10px
+}
+
+button :hover {
+   opacity: 00%;
+   cursor: pointer;
+}
+.contactright img {
+   width: 400px;
+   align-items: center;
+   margin-left: 10px;
+
+}
+.contactright {
+    display: inline;
+    color:black;
+    align-items:bottom;
+    font-size:large;
+    opacity: 0 7;
+    transition: 0 5s;  
+    
+}
+@media (max-width:800px) {
+   .inputs{
+    width:8vw; 
+   } 
+   .contactright{
+    display: none;
+   }
+}
+
+
+.footercontainer{
+ margin: 0 20px;
+ align-items:center;
+ 
+}
+.social{
+    color:#aaaaaa;   
+    transition:color 0.2s;
+    text-decoration: none;
+    margin:0 20px;
+       
+}
+.social:hover{
+    color: aqua;
+}
+.home{
+    margin: left 50px; ;
+}
+
+.navbar{
+    background-color:rgb(225, 194, 166);
+}
+
+
+.footercontainer a{
+    display: inline;
+    color:black;
+    align-content: center;
+    font-size: 1-3cm;
+    opacity: 0 7;
+    transition: 0 5s;  
+    margin-right: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+    margin-right: 20px;
+    
+    
+}
+
+.menu:hover{
+    color: rgb(255, 0, 0);
+}
+.footer{
+    align-items:center;
+    background-color:rgb(225, 194, 166) ;
+}  
