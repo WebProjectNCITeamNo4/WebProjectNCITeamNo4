@@ -1,0 +1,30 @@
+*{   
+    padding: 0;
+}
+.footer{
+    background-color: rgb(225, 194, 166);
+    width: 100%;
+    align-items: center;     
+     
+}
+.navbar{
+    background-color: rgb(225, 194, 166);
+}
+.button{
+    background-color:#6c757d; 
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer;
+}
+.name .email .password {
+    width: 100%; 
+    margin-bottom: 10px;
+}
+
+.username{
+    display: block;
+    background-color:#6c757d; 
+    border: none;
+    padding: 10px 20px; 
+    cursor: pointer
+}
